@@ -1,0 +1,13 @@
+{
+  "name": "boomkart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "lowdb": "^3.0.0",
+    "nunjucks": "^3.2.3"
+  }
+}
