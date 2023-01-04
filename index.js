@@ -2,8 +2,7 @@ import express from 'express'
 import nunjucks from 'nunjucks'
 import cookieParser from 'cookie-parser'
 import fs from 'fs'
-
-const port = 4321;
+const port = process.env.PORT || 4321;
 import { join, dirname } from 'path'
 import { Low, JSONFile } from 'lowdb'
 import { fileURLToPath } from 'url'
